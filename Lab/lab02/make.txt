@@ -1,7 +1,14 @@
 1.
+    clean
 2.
+    all
 3.
+    gcc 
 4.
+    c99
 5.
+    #(var)
 6.
+    MAC
 7.
+    18(LFSR_OBJS = lfsr.o test_lfsr.o)

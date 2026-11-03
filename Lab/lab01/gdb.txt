@@ -1,9 +1,9 @@
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
+1.r  arg1 arg2 ...etc
+2.b function
+3.n(through function)
+4.s
+5.c
+6.p xxx   (p /t binX) (p /x hexaX)
+7.display xxx  (undisplay #)
+8.info local
+9.q
