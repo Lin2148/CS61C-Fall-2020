@@ -19,7 +19,7 @@
 ##########################################################################
 
 set indir = "testInputs"
-set outdir = "studentOutputs"
+set outdir = "studentOutputs/gol"
 set life = "./gameOfLife"
 
 if ($#argv != 3) then
@@ -69,5 +69,5 @@ while ($n < $max)
     @ n = $n + 1
 end
 echo "Making gif in $1.gif"
-convert -delay 20 -loop 0 -scale 400% $outdir/$1/*.ppm $1.gif
+convert -delay 20 -loop 0 -scale 400% $outdir/$1/*.ppm $outdir/$1.gif
 echo ""
