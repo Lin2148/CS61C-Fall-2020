@@ -1,0 +1,10 @@
+1.
+    .data 存user data 一些宣告的global var
+    .word 存一些4byte的word 這裡配置四個word
+    .text 程式碼存放地方read only
+2.
+    34,fib(9) 
+3.
+    0x10000010
+4.
+    改t3的reg成13 在lw執行完之後

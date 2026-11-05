@@ -1,0 +1,13 @@
+1.
+    simple_fn：
+    讀取不存在的值直接li a0, 1就好
+    naive_pow：
+    沒有儲存 s0 造成callee呼叫後遺失
+    inc_arr：
+    會呼叫helper_fn 且雙方需要根據CC儲存對應reg
+2.
+    naive_pow_loop 跟 naive_pow_end 都只是 naive_pow內部運行過程 
+3.
+    line 125 jal helper_fn返回會覆蓋ra
+4.
+    還沒加入PROLOGUE前 會修改s0 造成caller被破壞的reg數值

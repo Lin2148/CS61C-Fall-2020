@@ -1,0 +1,14 @@
+1.
+    k放t0  (進到fun後會被替換，caller先存 之後還原)
+2.
+    sum放a0 
+3.
+    source放s1, dest放s2
+4.
+    tag loop:   
+    line 44~62  
+5.
+    la s1, source  把source這段指標傳給s1
+    slli s3, t0, 2 把k*4 得到shift 因為word=4byte
+    add t1, s1, s3 現在t1是source[k]
+    lw t2, 0(t1)   去t1 address讀數值
